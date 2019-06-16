@@ -12,6 +12,22 @@ function inicializar(){
 
 function ejecutar(){
     console.log('Inicio -ejecutar- ...');
-    var x = 2;
+    
+    dibujaPuntos();
+
+
     console.log('... Fin -ejecutar-');
+}
+
+function dibujaPuntos(){
+    //detecta el canvas
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    // captura las dimensiones del canvas
+    var width = canvas.width;
+    var height = canvas.height;
+    // dibuja un rectangulo
+    ctx.strokeStyle = "red";
+    ctx.strokeRect(10,20,2,2);
+
 }
