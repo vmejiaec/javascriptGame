@@ -49,6 +49,8 @@ function dibujaPuntos(){
     trazarBacteria(bacteria, ctx, posini, 2);
 
     ctx.stroke();
+
+    // http://www.williammalone.com/articles/create-html5-canvas-javascript-sprite-animation/
 }
 
 function arrayBacteria(){
